@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    margin: 35px
+}
+
+.btn-primary{
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    height: 32px;
+    width: 180px;
+    color: white;
+    
+}
+
+.btn-primary:hover {
+    background-color: black;
+    cursor:pointer;
+}

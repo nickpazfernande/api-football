@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import '../style/team.css'
 
 const Team = () => {
     const [team, setTeam] = useState(null)
@@ -29,10 +30,9 @@ const Team = () => {
   function verEstado (){
       console.log(team)
   }
-  return <div>
-      <button onClick={verEstado}>click</button>
+  return <div className="container">
+      <button onClick={verEstado} className="btn-primary">click</button>
       <p></p>
-      
   </div>;
 };
 
