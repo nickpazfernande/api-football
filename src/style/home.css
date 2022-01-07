@@ -1,0 +1,68 @@
+.App-header {
+  display: grid;
+  background-color: #282c34;
+  text-align: center;
+  justify-items: center;
+  justify-content: center;
+  padding-bottom: 48px;
+}
+
+.title-home {
+  color: white;
+  padding-top: 48px;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.container-home {
+  background-color: #303134;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 12px;
+  border-radius: 10px;
+  display: grid;
+  margin-left: 50%;
+  margin-right: 50%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  justify-items: center;
+  align-items: center;
+  box-shadow: 11px 10px 25px -1px rgba(0, 0, 0, 0.75);
+}
+.container-home:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+  transition: all 0.4s linear;
+}
+.container-home h1:nth-child(2) {
+  color: white;
+}
+
+.team-home {
+  background-color: #202124;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+.team-away {
+  background-color: #202124;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+}
+.team-away h1 {
+  color: white;
+  font-weight: lighter;
+}
+.team-home h1 {
+  color: white;
+  font-weight: lighter;
+}
+
+.score {
+  color: white;
+}
+.img-team {
+  width: 120px;
+  height: 120px;
+}

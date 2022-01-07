@@ -1,27 +1,35 @@
 .navBar {
-    display: grid;
-    grid-template-columns: 3;
-    grid-template-rows: 1;
-    justify-content: right;
-    padding-right: 64px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #1a1a1a;
-    color: white;
+  display: grid;
+  justify-content: right;
+  padding-right: 64px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #1a1a1a;
+  color: white;
+  height: 50px;
 }
-
+.img-logo-nav {
+  position: absolute;
+  width: 80px;
+  left: 15%;
+  top: 10px;
+}
 .navBar ul li {
-    display: inline;
-    margin: 32px;
-
+  display: inline;
+  margin: 32px;
 }
 
 .navBar ul li a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .navBar ul li a:hover {
-    color: black;
+  color: rgb(122, 114, 114);
 }
 
+@media screen and (max-width: 800px) {
+  .navBar ul li {
+    display: none;
+  }
+}

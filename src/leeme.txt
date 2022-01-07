@@ -1,0 +1,43 @@
+Nacional : 2356
+Peniarol : 2348
+
+"Primera Division - Apertura" : 268
+"Primera Division - Clausura" : 270
+"Segunda Division" -  269
+"Super Copa" -  842
+
+
+GET : https://v3.football.api-sports.io/teams?country=Uruguay&league=270&season=2021
+Devuelve todos los equipos del torneo Clausura. 16 equipos.
+
+"https://v3.football.api-sports.io/teams?id=2356&country=Uruguay"
+devuelve nacional.
+
+https://v3.football.api-sports.io/players/squads?team=2356
+devuelve jugadores de nacional.
+
+https://v3.football.api-sports.io/standings?league=270&season=2021
+Devuelve posiciones de Clausura. 
+
+"https://v3.football.api-sports.io/fixtures?live=all" partidos en vivo. 
+
+
+events: []
+fixture: {id: 818884, referee: null, timezone: 'UTC', date: '2022-01-06T22:15:00+00:00', timestamp: 1641507300, …}
+goals: {home: 0, away: 0}
+league: {id: 618, name: 'São Paulo Youth Cup', country: 'Brazil', logo: 'https://media.api-sports.io/football/leagues/618.png', flag: 'https://media.api-sports.io/flags/br.svg', …}
+score: {halftime: {…}, fulltime: {…}, extratime: {…}, penalty: {…}}
+teams:
+away:
+id: 12981
+logo: "https://media.api-sports.io/football/teams/12981.png"
+name: "América Mineiro U20"
+winner: null
+[[Prototype]]: Object
+home: {id: 18351, name: 'São Carlos U20', logo: 'https://media.api-sports.io/football/teams/18351.png', winner: null}
+[[Prototype]]: Object
+[[Prototype]]: Object
+1: {fixture: {…}, league: {…}, teams: {…}, goals: {…}, score: {…}, …}
+2: {fixture: {…}, league: {…}, teams: {…}, goals: {…}, score: {…}, …}
+3: {fixture: {…}, league: {…}, teams: {…}, goals: {…}, score: {…}, …}
+

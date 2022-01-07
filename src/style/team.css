@@ -1,19 +1,56 @@
-.container{
-    text-align: center;
-    margin: 35px
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.btn-primary{
-    border: none;
-    border-radius: 5px;
-    background-color: blue;
-    height: 32px;
-    width: 180px;
-    color: white;
-    
+.container {
+  text-align: center;
+  padding-bottom: 48px;
+  padding-top: 48px;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #282c34;
+}
+.btn-primary {
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  height: 32px;
+  width: 180px;
+  color: white;
 }
 
 .btn-primary:hover {
-    background-color: black;
-    cursor:pointer;
+  background-color: black;
+  cursor: pointer;
+}
+.div-logo {
+  justify-items: center;
+}
+.img-logo {
+  width: 200px;
+}
+.info-team {
+  text-align: left;
+}
+.info-team h1 {
+  color: white;
+}
+
+.info-team p {
+  color: white;
+}
+
+.div-vs h1 {
+  color: white;
+}
+.div-vs p {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .container-main {
+    grid-template-columns: 1fr;
+  }
 }
