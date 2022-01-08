@@ -50,7 +50,7 @@ const Team = () => {
             </div>
           ))
         : null}
-      <br />
+      
     </div>
   );
 };

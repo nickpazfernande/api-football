@@ -1,6 +1,7 @@
 import React from "react";
 import Team from "../components/Team";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import "../style/infoTeam.css";
 
 const InfoTeam = () => {
@@ -12,6 +13,7 @@ const InfoTeam = () => {
         <p>Todos los equipos de primera division del futbol uruguayo.</p>
       </div>
       <Team />
+      <Footer/>
     </div>
   );
 };

@@ -1,0 +1,38 @@
+
+.header{
+    
+    background-color: #282c34;
+}
+
+.header h1{
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding-top: 48px;
+    font-weight: lighter;
+}
+
+.header p {
+    color: white;
+    text-align: center;
+}
+
+.div-container-stadium {
+    display: grid;
+    justify-content: center;
+    
+}
+.div-stadium {
+    background-color: #303134;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.img-stadium{
+    width: 250px;
+    border-radius: 10px;
+}

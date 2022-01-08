@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import "../style/home.css";
+
 
 const Home = () => {
   const [match, setMatch] = useState(null);
@@ -56,6 +58,8 @@ const Home = () => {
             ))
           : null}
       </header>
+      <Footer />
+      
     </div>
   );
 };

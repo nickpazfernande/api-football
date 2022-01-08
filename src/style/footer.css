@@ -1,0 +1,12 @@
+.footer {
+    height: 50px;
+    padding: 12px 0 12px 0;
+    margin: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.info-footer{
+    color: #eef3ed;
+    text-align: center ;
+}
