@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build https://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@github.com/nickpazfernande/apifootball"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
