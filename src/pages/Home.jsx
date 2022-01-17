@@ -1,27 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import useGetData from "../hooks/useGetData";
 import "../style/home.css";
 
 
 const Home = () => {
+  const API = "https://v3.football.api-sports.io/fixtures?live=all";
   const [match, setMatch] = useState(null);
+  setMatch(() => setMatch(API))
 
-  useEffect(() => {
-    fetch("https://v3.football.api-sports.io/fixtures?live=all", {
-      method: "GET",
-      headers: {
-        "x-rapidapi-key": "ccf0502781334fde338f2391b1c5e51f",
-        "x-rapidapi-host": "v3.football.api-sports.io",
-      },
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log(data.response);
-        setMatch(data.response);
-      })
-      .catch((error) => console.log("error", error));
-  }, []);
+  
 
   //team1.team.id
   return (
